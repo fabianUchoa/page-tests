@@ -1,0 +1,16 @@
+@media screen and (min-width: 450px) {
+    #menu{
+        display: none;
+    }
+    nav>a{
+        display: inline-block;
+        margin: 8px;
+        font: Calibri;
+        font-weight: bold;
+    }
+    main{
+        width: 70vw;
+    }
+
+}
+

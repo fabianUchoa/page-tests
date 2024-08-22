@@ -1,4 +1,5 @@
-body{
+
+body{ 
     margin: 0;
     background-color: #A6A26D;
     height: 100vh;
@@ -7,33 +8,49 @@ body{
 header{
     background-color: #A67C49;
     padding: 10px;
-    text-align: center;
+    
 }
 
 header>h1{
     font-size: 7vw;
     margin: 15px;
+    text-align: center;
 }
 
+a{
+    border-radius: 10px;
+    padding:10px;
+    font-size: 70%;
+    transition: 250ms linear;
+}
+
+
 nav>a{
-    display: none;
+    display:none;
+}
+
+a:hover{
+    background-color: #735C3F;
+    transform: scale(1.15);
 }
 
 #menu{
     display: block;
-    margin: 0;
-    padding:10px;
+    margin: auto;
+    
+    width: 20px;
 }
 
 #menu>img{
-    width: 3%;
-    margin-top: ;
+    width: 100%;
+    
 }
 
 main{
     background-color: rgba(245, 245, 245, 0.899);
     width: 90%;
     margin: auto;
+    margin-bottom: 10px;
     padding: 15px;
     border-radius: 0 0 20px 20px;
 }
@@ -48,14 +65,15 @@ article > p{
     margin: 2%;
     font-family: calibri;
 }
-
+/*
 footer{
     background-color: black;
     color: white;
     text-align: center;
     letter-spacing: 0.5px;
     font-size: 10px;
-    position:absolute;
-    bottom: 0px;
+   position: static;
+    bottom: 0;
+    margin-top: 10px;
     width: 100%;
-}
+} */

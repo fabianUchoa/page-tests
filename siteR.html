@@ -11,13 +11,13 @@
     <header>
         <h1>Meu Site</h1>
         <nav>
+            <a id="menu"><img src="./imgs/pngwing.com.png" alt="Menu" onclick="clickMenu"></a>
             <a>Opção 1</a>
             <a>Opção 2</a>
             <a>Opção 3</a>
             <a>Opção 4</a>
             <a>Opção 5</a>
-            <a id="menu"><img src="pngwing.com.png" alt="Menu"></a>
-        </nav>
+            </nav>
     </header>
     <main>
         <article>
@@ -28,8 +28,10 @@
             </p>
         </article>
     </main>
-    <footer>
-        <p>Site criado por Fabian Uchôa para prática de recursividade</p>
-    </footer>
+    <script>
+        function clickMenu(){
+            menu.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
